@@ -7,11 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <style>
 
         body{
       background-color: #e7d58d;
+    }
+        table {
+      border: rgb(117, 98, 44) solid 2px !important;
     }
     </style>
 </head>
@@ -47,56 +50,66 @@
           
       </div>
 
-      <div class="container">
+      <div class="container" style="padding-top: 3%"> <!--Dit is puur van het ontwerp een een beeld van wat we willen maken-->
 
-            <!-- You can constrain the columns if you want -->
             <div class="row">
-          
-            <!-- We could move it to the right with a blank div
-            <div class="col-md-6"></div> -->
-          
-            <!-- Or we could use offset -->
             <div class="col-lg-12">
-          
-              <!-- The table class adds nice spacing and the other classes add additional style -->
-              <table class="table table-bordered table-hover">
-              <thead>
-              <tr>
-              <td colspan="4" style="text-align: center"><h3>Bestelling</h3></td>
-              </tr>
-              </thead>
-              <tbody>
-              <tr>
-          
-              <!-- You can adjust the width of table columns as well -->
-              <th class="col-md-2"></td>
-          
-              <!-- Use text alignment like text-center or text-right -->
-              <th class="text-center">Item</td>
-              <th class="text-center">Hoeveelheid</td>
-              <th class="text-center">Prijs</td>
-              </tr>
-              <tr>
-              <td>Gerecht 1</td>
-              <td>2</td>
-              <td>12,00;</td>
-              </tr>
-              <tr>
-              <td>Gerecht 2</td>
-              <td>1</td>
-              <td>9,66;</td>
-              </tr>
-              <tr>
-              <td>Gerecht 3</td>
-              <td>.1</td>
-              <td>19,12;</td>
-              </tr>
-              </tbody>
+              <table class="table table-hover">
+                <thead class="thead-light">
+                  <tr style="background-color: rgb(161, 137, 74)">
+                    <th scope="col" class="col-lg-7"><h2>Item</h2></th>
+                    <th scope="col" class="col-lg-2 text-center"><h3>Aantal</h3></th>
+                    <th scope="col" class="col-lg-1 text-center"><h3>Prijs</h3></th>
+                    <th scope="col" class="col-lg-1"></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row"><h3>Gerecht 1</h3></th>
+                    <td class="text-center"><h3>1</h3></td>
+                    <td class="text-center"><h3>12,00;</h3></td>
+                    <td class="text-center"><button class="btn btn-link btn-lg" style="color: black"><span class="glyphicon glyphicon-trash"></span></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><h3>Gerecht 2</h3></th>
+                    <td class="text-center"><h3>2</h3></td>
+                    <td class="text-center"><h3>20,00;</h3></td>
+                    <td class="text-center"><button class="btn btn-link btn-lg" style="color: black"><span class="glyphicon glyphicon-trash"></span></button></td>
+                  </tr>
+                  <tr>
+                    <th scope="row"><h3>Gerecht 3</h3></th>
+                    <td class="text-center"><h3>1</h3></td>
+                    <td class="text-center"><h3>11,30;</h3></td>
+                    <td class="text-center"><button class="btn btn-link btn-lg" style="color: black"><span class="glyphicon glyphicon-trash"></span></button></td>
+                  </tr>
+                  
+                </tbody>
               </table>
             </div>
           </div>
           </div>
-      
+
+        <!-- Footer -->
+<footer class="page-footer blue pt-4" style="padding-top: 15%">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-4 col-sm-4 col-ex-12 col-lg-offset-1">
+        <button class="btn btn-default btn-lg" style="background-color: rgb(161, 137, 74)"><h4>Stuur naar de keuken</h4></button>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-ex-12 col-lg-offset-1">
+        <button class="btn btn-link btn-lg" style="color: black;"><span class="glyphicon glyphicon-trash"></span></button>
+      </div>
+      <div class="col-lg-3 col-md-4 col-sm-4 col-ex-12 col-lg-offset-1">
+        <button class="btn btn-default btn-lg" style="background-color: rgb(161, 137, 74)"><h4>Rekening</h4></button>
+      </div>
+    </div>
+  </div>
+
+  
+</footer>
+<!-- Footer -->
+
+          
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
