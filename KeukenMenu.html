@@ -1,0 +1,364 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>KeukenMenu</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+
+        body{
+      background-color: #8dbee7;
+    }
+        table {
+      border: rgb(44, 73, 117) solid 2px !important;
+    }
+        img {
+    max-width: 100%;
+    }
+        .slide-wrapper {
+    text-align: center;
+    }
+      .jumbotron{
+        background-color: #8dbee7;
+        border: solid;
+        border-color: rgb(44, 73, 117) solid 2px !important;
+    }
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 70%;
+        margin-bottom: 50px;
+  }
+
+      .carousel-indicators{
+        bottom: -50px;
+  }
+
+      .modal-backdrop{
+        background-color: #bad9e5;
+      }
+  
+    </style>
+</head>
+  <body>
+        
+    <div class="container"> <!--kan ook "container-fluid zijn als het groepje dat wilt-->
+      <div class="page-header">
+          <button type="button" class="btn"><span class="glyphicon glyphicon-chevron-left"></span>Terug</button>
+          <h1 class="text-center">Menu</h1>
+      </div>
+
+    </div>
+
+
+      <div class="container">
+              <div class="search" role="search" style="padding: 1%">    <!--search bar-->
+                <input type="text" class="form-control" placeholder="Search">
+              </div>
+        <div class="jumbotron">
+          <br>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+              <li data-target="#myCarousel" data-slide-to="3"></li>
+            </ol>
+        
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+        
+              <div class="item active">
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                      <figure class="figure">
+                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                      </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <figure class="figure">
+                            <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                              <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                          <figure class="figure">
+                              <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                          </figure>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <figure class="figure">
+                                <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                  <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                            </figure>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6">
+                              <figure class="figure">
+                                  <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                              </figure>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <figure class="figure">
+                                    <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                      <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                </figure>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6">
+                                  <figure class="figure">
+                                      <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                  </figure>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <figure class="figure">
+                                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                    </figure>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6">
+                                      <figure class="figure">
+                                          <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                            <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                      </figure>
+                                    </div>
+
+              </div>
+        
+              <div class="item">
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                      <figure class="figure">
+                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                      </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <figure class="figure">
+                            <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                              <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                          <figure class="figure">
+                              <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                          </figure>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <figure class="figure">
+                                <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                  <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                            </figure>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6">
+                              <figure class="figure">
+                                  <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                              </figure>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <figure class="figure">
+                                    <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                      <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                </figure>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6">
+                                  <figure class="figure">
+                                      <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                  </figure>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <figure class="figure">
+                                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                    </figure>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6">
+                                      <figure class="figure">
+                                          <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                            <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                      </figure>
+                                    </div>
+
+              </div>
+            
+              <div class="item">
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                      <figure class="figure">
+                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                      </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <figure class="figure">
+                            <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                              <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                          <figure class="figure">
+                              <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                          </figure>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <figure class="figure">
+                                <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                  <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                            </figure>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6">
+                              <figure class="figure">
+                                  <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                              </figure>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <figure class="figure">
+                                    <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                      <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                </figure>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6">
+                                  <figure class="figure">
+                                      <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                  </figure>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <figure class="figure">
+                                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                    </figure>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6">
+                                      <figure class="figure">
+                                          <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                            <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                      </figure>
+                                    </div>
+
+              </div>
+        
+              <div class="item">
+                  <div class="col-lg-4 col-md-4 col-sm-6">
+                      <figure class="figure">
+                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                      </figure>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-6">
+                        <figure class="figure">
+                            <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                              <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                        </figure>
+                      </div>
+                      <div class="col-lg-4 col-md-4 col-sm-6">
+                          <figure class="figure">
+                              <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                          </figure>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <figure class="figure">
+                                <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                  <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                            </figure>
+                          </div>
+                          <div class="col-lg-4 col-md-4 col-sm-6">
+                              <figure class="figure">
+                                  <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                    <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                              </figure>
+                            </div>
+                            <div class="col-lg-4 col-md-4 col-sm-6">
+                                <figure class="figure">
+                                    <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                      <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                </figure>
+                              </div>
+                              <div class="col-lg-4 col-md-4 col-sm-6">
+                                  <figure class="figure">
+                                      <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                        <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                  </figure>
+                                </div>
+                                <div class="col-lg-4 col-md-4 col-sm-6">
+                                    <figure class="figure">
+                                        <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                          <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                    </figure>
+                                  </div>
+                                  <div class="col-lg-4 col-md-4 col-sm-6">
+                                      <figure class="figure">
+                                          <button class="btn btn-link" style="color: black" data-toggle="modal" data-target="#myModal"><img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp" class="figure-img img-fluid rounded" alt="A generic square placeholder image with rounded corners in a figure.">
+                                            <figcaption class="figure-caption">Burger met friet</figcaption></button>
+                                      </figure>
+                                    </div>
+
+              </div>
+          
+                      <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                          <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                          <span class="sr-only">Next</span>
+                        </a>
+            </div>
+        </div>
+
+
+        <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog">
+            
+              <!-- Modal content-->
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title">Gerecht 1</h4>
+                </div>
+                <div class="modal-body"> <!--deze informatie komt van de database-->
+                  <img src="20150915-_Upland_Burger_3.0.0.1489236245.0.webp">
+                  <p>Een heerlijk gerecht met een burger en wat friet</p>
+                  <p>Ingredient 1</p>
+                  <p>Ingredient 2</p>
+                  <p>Ingredient 3</p>
+                  <p>Ingredient 4</p>
+                  <p>Ingredient 5</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Edit</button>
+                </div>
+              </div>
+              
+            </div>
+          </div>
+
+
+
+
+
+
+      <footer class="page-footer blue pt-4" style="padding-top: 10%">
+        <div class="container">
+            <div class="col-lg-12" style="text-align: center">
+                    <button class="btn btn-link btn-lg"><h2 class="glyphicon glyphicon-plus" style="color: #495d7c"></h2></button>
+            </div>
+          <div class="col-lg-12" style="text-align: right">
+              <button class="btn btn-default btn-lg" style="background-color: rgb(111, 106, 194)">Klaar!</button>
+          </div>
+        </div>
+      </footer>
+
+  </body>
+</html>
