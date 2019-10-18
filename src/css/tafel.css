@@ -1,0 +1,14 @@
+
+         body{
+           background-color: #e7d58d;
+         }
+             #containerTable{
+             padding: 0%;
+             border:  rgb(117, 98, 44) solid 2px !important;
+         }
+             #containerTafelInfo{
+             padding: 1%;
+         }
+             #AddItem{
+             padding-bottom: 2%;
+         }
