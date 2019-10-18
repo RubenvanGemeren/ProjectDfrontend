@@ -15,7 +15,6 @@
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
   
   <script src="jquery.ui.touch-punch.min.js"></script>
-  
   <style>
     .draggable {
       cursor: move;
@@ -63,11 +62,16 @@
       <h1 class="text-center">Tafels</h1>
     </div>
     <center>
-      <button onclick="createTable()">Nieuwe tafel</button>
+      <button id="changeLayout" onclick="configureDrag()">Tafels wijzigen</button>
+      <br><br>
+      <button id="addTable" onclick="createTable()">Nieuwe tafel</button> 
+      
     </center>
+    <br>
+    
 
     <div id="newTable" style="display: none;">
-      <div id="tableStyle" class="ui-widget-content">
+      <div id="tableStyle" onclick="tableInfo()" class="ui-widget-content">
         <center><p><span id="tableNumber"></span></p></center>
         
       </div>
@@ -80,27 +84,48 @@
 
   <script>
     var counter = 0;
+    var list = [];
+    var stuck = false;
+
     function createTable() {
       
       var newTable = document.getElementById("newTable");
       var table = document.createElement('div');
 
-      if (newTable) {
-        counter = counter + 1;
-        document.getElementById('tableNumber').innerHTML = " tafel " + counter;
-        table.innerHTML = document.getElementById('newTable').innerHTML;
-        document.body.appendChild(table);
-        table.style.display = "inline-block";
-        table.className = "ui-widget-content";
-        
-        console.log(counter);
-      }
+      counter = counter + 1;
+      document.getElementById('tableNumber').innerHTML = " tafel " + counter;
+      table.innerHTML = document.getElementById('newTable').innerHTML;
+      document.body.appendChild(table);
+      table.style.display = "inline-block";
+      table.className = "ui-widget-content";
+      
+      // console.log(counter);
 
+      list.push(table);
       table.classList.add('draggable');
       $('.draggable').draggable({
         containment: "document"
       });
     }
+
+    function configureDrag() {
+      if (stuck === false) {
+        $('.draggable').draggable("disable");
+        stuck = true;
+        document.getElementById("addTable").style.display="none";
+      } else {
+        $('.draggable').draggable("enable");
+        stuck = false;
+        document.getElementById("addTable").style.display="block";
+      }      
+    }
+
+    function tableInfo() {
+      if (stuck === true) {
+        popupWindow = window.open("/tafel.html");
+      }
+    }
+
 
   </script>
 
