@@ -1,0 +1,30 @@
+/* body{
+    background-color: #e7d58d;
+  } */
+      table {
+    border: rgb(117, 98, 44) solid 2px !important;
+  }
+      img {
+  max-width: 100%;
+  }
+      .slide-wrapper {
+  text-align: center;
+  }
+    .jumbotron{
+      background-color: #e7d58d;
+      border: solid;
+      border-color: #96874e;
+  }
+    .carousel-inner > .item > img,
+    .carousel-inner > .item > a > img {
+      width: 70%;
+      margin-bottom: 50px;
+}
+
+    .carousel-indicators{
+      bottom: -50px;
+}
+
+    .modal-backdrop{
+      background-color: #e5ddba;
+    }

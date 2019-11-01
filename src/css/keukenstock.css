@@ -1,0 +1,13 @@
+/* body{
+           background-color: #8dbee7;
+         } */
+             #containerTable{
+             padding: 0%;
+             border:   rgb(44, 73, 117) solid 2px !important;
+         }
+             #containerTafelInfo{
+            padding: 1%;
+         }
+             #AddItem{
+             padding-bottom: 2%;
+         }

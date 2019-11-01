@@ -41,36 +41,36 @@ class Layout extends Component{
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 TafelLayout">          
           <h4>Tafel 1</h4>
           <Link to="/tafel">
-          <a href="#" class="btn btn-success btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-success btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
           </Link>
         </div>
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 TafelLayout">
           <h4>Tafel 2</h4>
-          <a href="#" class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 3</h4>
-          <a href="#" class="btn btn-success btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-success btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 4</h4>
-          <a href="#" class="btn btn-warning btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-warning btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 5</h4>
-          <a href="#" class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 6</h4>
-          <a href="#" class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a class="btn btn-danger btn-lg" role="button">Plaats bestelling &nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 7</h4>
-          <a href="#" class="btn btn-success btn-lg" role="button">Plaats bestelling&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a  class="btn btn-success btn-lg" role="button">Plaats bestelling&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 TafelLayout">
           <h4>Tafel 8</h4>
-          <a href="#" class="btn btn-success btn-lg" role="button">Plaats bestelling&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
+          <a  class="btn btn-success btn-lg" role="button">Plaats bestelling&nbsp;<span class="glyphicon glyphicon-edit"></span></a>
         </div>
       </div>
     </div>
